@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  .imgicon {
+    padding-left: 3rem;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-right: 6rem;
+    a {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+}
+.cardContent {
+  .col-3 {
+    &:hover {
+      background-color: #dfecfa;
+    }
+  }
+}
+.footerList {
+  li {
+    padding-top: 0.5rem;
+    &:first-child {
+      padding-top: 0;
+    }
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
